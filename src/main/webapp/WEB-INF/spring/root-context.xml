@@ -10,9 +10,9 @@
 	<bean id="dataSource"
 		class="org.apache.commons.dbcp2.BasicDataSource">
 		<property name="url"
-			value="jdbc:oracle:thin:@localhost:1521:xe" />
-		<property name="username" value="study" />
-		<property name="password" value="study" />
+			value="jdbc:oracle:thin:@10.5.5.10:1521:xe" />
+		<property name="username" value="practice" />
+		<property name="password" value="practice" />
 		<property name="driverClassName"
 			value="oracle.jdbc.driver.OracleDriver" />
 		<property name="initialSize" value="5" />
