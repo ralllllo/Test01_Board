@@ -1,5 +1,7 @@
 package com.kedu.dto;
 
+
+
 public class BoardsDTO {
 	private int seq;
 	private String writer;
